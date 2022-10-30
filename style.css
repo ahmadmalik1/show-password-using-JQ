@@ -1,0 +1,43 @@
+
+body{
+    background-color: gainsboro;
+}
+form{
+    margin: 150px 150px 150px 50px;
+}
+form h3{
+    color: #405189;
+    padding-left: 20px;
+    border-left: 3px solid #405189;
+}
+form .input-form{
+    border-radius: 3px !important;
+    padding: 10px 20px;
+}
+form .input-form:focus{
+    box-shadow: none !important;
+    border-color: #405189 !important;
+    outline-color: #405189 !important;
+}
+#checkbox{
+    border-color: #405189 !important;
+    box-shadow: none !important;
+}
+#checkbox:checked{
+    background-color: #405189 !important;
+}
+form button{
+    border-radius: 3px !important;
+    border: 1px solid #405189 !important;
+    color: #405189 !important;
+}
+form button:hover{
+    background-color: #405189 !important;
+    color: white !important;
+}
+@media screen and (max-width: 480px) {
+    .card .row img{
+        height: 200px;
+        object-fit: cover;
+    }
+}
